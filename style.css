@@ -75,7 +75,9 @@ body {
 .intro {
   margin: 0 0 120px;
 }
-
+.about_me {
+  margin-left: 15px;
+}
 .subheading {
   margin: 0 0 56px;
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
