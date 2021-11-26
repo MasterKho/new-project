@@ -199,10 +199,12 @@ body {
 
 .footer-email {
   padding-left: 30px;
+  color:white;
   background-image: url("img/icon-email-footer.svg");
 }
 
 .footer-phone {
   padding-left: 25px;
+  color:white;
   background-image: url("img/icon-phone-footer.svg");
 }
