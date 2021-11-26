@@ -91,6 +91,10 @@ body {
   text-align: center;
   margin-left: 15px;
 }
+.junior {
+  font-size: 25px;
+  color:yellowgreen;
+}
 
 .user-image {
   margin: 0 0 32px;
