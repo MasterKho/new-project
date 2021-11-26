@@ -185,13 +185,13 @@ body {
 
 .page-footer {
   padding: 40px 0;
-  background-color: #00417d;
-  color: #ffffff;
+  background-color: #b3cfe9;
+ 
 }
 
 .page-footer a {
   margin-left: 56px;
-  color: white;
+  color: rgb(17, 1, 1);
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -199,12 +199,12 @@ body {
 
 .footer-email {
   padding-left: 30px;
-  color:white;
+  color:rgb(34, 2, 2);
   background-image: url("img/icon-email-footer.svg");
 }
 
 .footer-phone {
   padding-left: 25px;
-  color:white;
+  color:rgb(34, 2, 2);
   background-image: url("img/icon-phone-footer.svg");
 }
