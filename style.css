@@ -113,13 +113,15 @@ body {
   margin: 0 0 32px;
 }
 
+.skills,
+.about {
+  margin-left: 35px;
+}
+
 .skills-list {
-  margin: 0;
   padding: 0;
 }
-.about {
-  margin-left: 15px;
-}
+
 
 .skills-list dt {
   padding-left: 32px;
@@ -152,9 +154,12 @@ body {
   border-radius: 6px;
 }
 
+
 .portfolio {
   margin: 0 0 120px;
+  margin-left: 35px;
 }
+
 
 .projects {
   margin: 0;
@@ -199,15 +204,18 @@ body {
   background-repeat: no-repeat;
   background-position: left;
 }
+.container-footer {
+  margin-left: 35px;
+}
 
-.footer-email {
+.footer-email { 
   padding-left: 30px;
-  color:rgb(34, 2, 2);
+  color: rgb(17, 1, 1);
   background-image: url("img/icon-email-footer.svg");
 }
 
 .footer-phone {
   padding-left: 25px;
-  color:rgb(34, 2, 2);
+  color: rgb(17, 1, 1);
   background-image: url("img/icon-phone-footer.svg");
 }
