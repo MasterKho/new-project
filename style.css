@@ -171,6 +171,7 @@ body {
 
 .projects li {
   margin: 0 0 80px;
+  margin-left: 35px;
 }
 
 .project-image {
