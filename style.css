@@ -161,6 +161,7 @@ body {
 .portfolio {
   margin: 0 0 120px;
   margin-left: 35px;
+  margin-right: 35px;
 }
 
 
@@ -176,7 +177,7 @@ body {
 }
 
 .project-image {
- margin: 0 34px 24px;
+ margin: 0 0 24px;
  text-align: center;
 }
 
