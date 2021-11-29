@@ -139,14 +139,15 @@ body {
 }
 
 .level {
-  margin: 4px 0 16px;
+  margin-right: 25px;
+  margin: 4px  16px;
   padding: 0;
   height: 14px;
   font-size: 0;
   background-color: #ffffff;
   border: 1px solid #86c3fa;
   border-radius: 8px;
-  margin-right: 25px;
+ 
 }
 
 .level div {
