@@ -40,12 +40,11 @@ body {
 }
 
 .header-email {
-  padding-left: 30px;
+  padding-left: 20px;
   background-image: url("img/icon-email-header.svg");
 }
 
 .header-phone {
-  margin-left: 45px;
   padding-left: 25px;
   background-image: url("img/icon-phone-header.svg");
 }
