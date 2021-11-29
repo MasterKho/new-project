@@ -175,8 +175,8 @@ body {
 }
 
 .project-image {
-  margin-right: 20%;
- margin: 0 0 24px;
+
+ margin:2rem 0 0 -2rem;
  text-align: center;
 }
 
