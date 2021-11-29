@@ -40,7 +40,6 @@ body {
 }
 
 .header-email {
-  margin-left: -15px;
   padding-left: 30px;
   background-image: url("img/icon-email-header.svg");
 }
