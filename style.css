@@ -11,26 +11,31 @@ body {
   background-position: top center;
 }
 
-.container {
-  max-width: 928px;
-  margin: 0 auto;
-  padding: 0 16px;
- 
-}
-
-.page-header {
+.header {
   margin: 0 0 160px;
   padding: 32px 0 32px;
+  font-size: 25px;
   text-align: center;
 }
 
-.page-header .container,
-.page-footer .container {
-  max-width: 1408px;
-  text-align: right;
+.header__container {
+  max-width: 928px;
+  margin: 0 auto;
+  padding: 0 16px;
+  color: #ffffff;
+ 
+}
+.header__container_email{
+  padding-left: 30px;
+  background-image: url("img/icon-email-header.svg");
 }
 
-.page-header a {
+.header__container_phone {
+  padding-left: 25px;
+  background-image: url("img/icon-phone-header.svg");
+}
+
+.header__container a {
   margin-left: 56px;
   color: #288be6;
   text-decoration: none;
@@ -39,36 +44,44 @@ body {
   text-align: end;
 }
 
-.header-email {
-  padding-left: 30px;
-  background-image: url("img/icon-email-header.svg");
+
+.page-header .container,
+.page-footer .container {
+  max-width: 1408px;
+  text-align: right;
 }
 
-.header-phone {
-  padding-left: 25px;
-  background-image: url("img/icon-phone-header.svg");
+
+
+.main {   /*hero-image*/
+  margin-bottom: 680px;
 }
 
-.hero-image {
-  margin-bottom: 620px;
-}
-
-.hero-image .container {
+.main__container {
   max-width: 1408px;
   text-align: center;
 }
-.container-header {
-  font-size: 25px;
-  color:white;
-}
-.heading {
+
+.main__container_title {
   margin: 0 0 16px;
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
   font-size: 65px;
   color: white;
   line-height: 75px;
   font-weight: 400;
-  text-align: center;
+}
+.main__container,
+.title-element{
+  margin: 0;
+  font-size: 35px;
+  line-height: 48px;
+  color:rgb(159, 240, 29);
+}
+
+/*
+.container-header {
+  font-size: 25px;
+  color:white;
 }
 
 .hero-image p {
@@ -78,11 +91,13 @@ body {
   text-align: center;
 }
 
-.intro {
+*/
+
+.post {
   margin: 0 0 120px;
 }
-
-.subheading {
+.post__container,
+.post__title {
   margin: 0 0 56px;
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
   font-size: 64px;
@@ -91,36 +106,36 @@ body {
   text-align: center;
   margin-left: 15px;
 }
-.junior {
-  font-size: 25px;
-  color:yellowgreen;
-}
 
-.user-image {
+
+.post__image {
   margin: 0 0 32px;
   text-align: center;
 
 }
 
-.intro h3,
-.portfolio h3 {
+.post p {
+  margin: 0 0 32px;
+}
+
+.post h3,
+.project h3 {
   margin: 0 0 12px;
   font-size: 28px;
   line-height: 40px;
   font-weight: 500;
 }
 
-.intro p {
-  margin: 0 0 32px;
-}
 
-.skills,
-.about {
+.post__title-info,
+.post__skills,
+.skills-list{
   margin-left: 35px;
 }
 
 .skills-list {
   padding: 0;
+  margin: 0;
 }
 
 
@@ -128,17 +143,19 @@ body {
   padding-left: 32px;
   background-repeat: no-repeat;
   background-position: left;
+  margin-left: 0;
 }
 
-.skill-html {
+.skill-html{
   background-image: url("img/icon-html.svg");
+  
 }
 
 .skill-css {
   background-image: url("img/icon-css.svg");
 }
 
-.level {
+.post__skills-level {
   margin-right: 45px;
   margin: 4px  16px;
   padding: 0;
@@ -150,7 +167,7 @@ body {
  
 }
 
-.level div {
+.post__skills-level div {
   margin: 1px;
   height: 12px;
   background-color: #288be6;
@@ -158,25 +175,37 @@ body {
 }
 
 
-.portfolio {
+
+.project {
   margin: 0 0 120px;
   margin-left: 35px;
   margin-right: 45px;
 }
 
 
-.projects {
+.pproject__container {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
+/*
 .projects li {
   margin: 0 0 80px;
 
 }
+*/
+.pproject__container,
+.project__container-title{
+  margin: 0 0 56px;
+  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 15px;
+}
 
-.project-image {
+.project__container_image {
  margin: 0 0 24px;
  text-align: center;
 }
@@ -196,30 +225,30 @@ body {
   color: #ffffff;
 }
 
-.page-footer {
+.footer {
   padding: 40px 0;
   background-color: #b3cfe9;
  
 }
 
-.page-footer a {
+.footer a {
   margin-left: 56px;
   color: rgb(17, 1, 1);
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
 }
-.container-footer {
+.footer__container {
   margin-left: 35px;
 }
 
-.footer-email { 
+.footer__container-email { 
   padding-left: 30px;
   color: rgb(17, 1, 1);
   background-image: url("img/icon-email-footer.svg");
 }
 
-.footer-phone {
+.footer__container-phone {
   padding-left: 25px;
   color: rgb(17, 1, 1);
   background-image: url("img/icon-phone-footer.svg");
